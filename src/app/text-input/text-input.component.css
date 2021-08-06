@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@100&family=Jomhuria&family=Kirang+Haerang&family=Yellowtail&display=swap');
+
+.container {
+    margin-top: 20px;
+  }
+  
+.arial{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.yellowtail{
+    font-family: 'Yellowtail', cursive;
+}
+
+.jomhuria{
+    font-family: 'Jomhuria', cursive;
+}
+
+.kirang{
+    font-family: 'Kirang Haerang', cursive;
+}
+
+.big-shoulders{
+    font-family: 'Big Shoulders Stencil Display', cursive;
+}
+
+button{
+    margin: 5px 5px 5px 5px;
+}

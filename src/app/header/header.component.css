@@ -1,0 +1,8 @@
+.nav-item:hover, .nav-brand:hover{
+    color:darkblue;
+    background-color: #e3f2fd;
+}
+
+.nav-item:focus{
+    background-color: #e3f2fd;
+}

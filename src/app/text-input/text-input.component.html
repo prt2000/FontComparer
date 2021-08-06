@@ -1,0 +1,39 @@
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+            <h4>Input Text</h4>
+            <input type="text" size="60" class="col-12" [ngModel]="name" (ngModelChange)="inputChange($event)">
+        </div>
+        <div class="col-6">
+            <h4>Add font types</h4>
+    <div class="btn-toolbar">
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown button
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+        </div>
+        <button class="btn btn-primary margin-left" styles="padding-left:10px;">Add</button>
+    </div>
+    </div>
+        <div class="col-12">
+            <h4>Output Text:</h4>
+            <div class="card">
+                <div class="card-header">
+                    Quote
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">{{name}}</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<app-fetch-fonts></app-fetch-fonts>
